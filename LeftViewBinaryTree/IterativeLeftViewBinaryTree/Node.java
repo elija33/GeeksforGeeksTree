@@ -43,7 +43,7 @@ class Test {
             for (int i = 0; i < count; i++) {
                 Node curr = name.poll();
                 if (i == 0) {
-                    System.out.println(curr.key + " ");
+                    System.out.print(curr.key + " ");
                     if (curr.left != null) {
                         name.add(curr.left);
                     }
